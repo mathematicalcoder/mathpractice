@@ -19,5 +19,6 @@ var problems = [
         "solution": ""
     }
 ];
-document.getElementById("problem").innerHTML = problems[Math.floor(Math.random() * 2)]["problem"];
+document.getElementById("problem").innerHTML = problems[Math.floor(Math.random() * problems.length)]["problem"];
+document.getElementById("source").innerHTML = problems[Math.floor(Math.random() * problems.length)]["source"];
 MathJax.typeset();
