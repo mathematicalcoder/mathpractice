@@ -1,4 +1,4 @@
-let problems = [
+var problems = [
     {
         "inputAns": false,
         "diff": 1,
