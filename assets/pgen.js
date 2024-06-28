@@ -1,4 +1,4 @@
-problems = [
+let problems = [
     {
         "inputAns": false,
         "diff": 1,
@@ -18,5 +18,5 @@ problems = [
         "answer": "",
         "solution": ""
     }
-]
+];
 document.getElementById("problem").innerHTML = problems[Math.floor(Math.random() * 2)]["problem"];
