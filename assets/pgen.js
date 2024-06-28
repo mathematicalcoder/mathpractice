@@ -20,3 +20,4 @@ var problems = [
     }
 ];
 document.getElementById("problem").innerHTML = problems[Math.floor(Math.random() * 2)]["problem"];
+MathJax.Hub.Queue(["Typeset",MathJax.Hub,"problem"]);
