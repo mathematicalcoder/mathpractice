@@ -5,7 +5,7 @@ var problems = [
         "area": "Algebra",
         "topic": "Circles",
         "source": "Original",
-        "problem": "Graph the equation \\((x-4)^2-16=-(y-1)^2.\\)",
+        "problem": "Graph the equation \\((x-4)^2-16=-(y-1)^2\\).",
         "solution": ""
     },
     {
@@ -14,7 +14,7 @@ var problems = [
         "area": "Algebra",
         "topic": "Circles",
         "source": "Original",
-        "problem": "Write the equation of the circle that has diameter \\(\\overline{AB}\\) where \\(A(-2,3)\\) and \\(B(-5,7).\\) Express your answer in standard form.",
+        "problem": "Write the equation of the circle that has diameter \\(\\overline{AB}\\) where \\(A(-2,3)\\) and \\(B(-5,7)\\). Express your answer in standard form.",
         "answer": "",
         "solution": ""
     }
