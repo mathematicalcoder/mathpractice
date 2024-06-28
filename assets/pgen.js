@@ -20,9 +20,11 @@ var problems = [
         "solution": ""
     }
 ];
-document.getElementById("problem").innerHTML = problems[Math.floor(Math.random() * problems.length)]["problem"];
-document.getElementById("source").innerHTML = problems[Math.floor(Math.random() * problems.length)]["source"];
-document.getElementById("area").innerHTML = problems[Math.floor(Math.random() * problems.length)]["area"];
-document.getElementById("topic").innerHTML = problems[Math.floor(Math.random() * problems.length)]["topic"];
-document.getElementById("diff").innerHTML = problems[Math.floor(Math.random() * problems.length)]["diff"];
+var index = Math.floor(Math.random() * problems.length);
+
+document.getElementById("problem").innerHTML = problems[index]["problem"];
+document.getElementById("source").innerHTML = problems[index]["source"];
+document.getElementById("area").innerHTML = problems[index]["area"];
+document.getElementById("topic").innerHTML = problems[index]["topic"];
+document.getElementById("diff").innerHTML = problems[index]["diff"];
 MathJax.typeset();
