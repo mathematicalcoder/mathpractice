@@ -6,6 +6,7 @@ var problems = [
         "topic": "Circles",
         "source": "Original",
         "problem": "Graph the equation \\((x-4)^2-16=-(y-1)^2\\).",
+        "answer": "",
         "solution": ""
     },
     {
@@ -21,4 +22,7 @@ var problems = [
 ];
 document.getElementById("problem").innerHTML = problems[Math.floor(Math.random() * problems.length)]["problem"];
 document.getElementById("source").innerHTML = problems[Math.floor(Math.random() * problems.length)]["source"];
+document.getElementById("area").innerHTML = problems[Math.floor(Math.random() * problems.length)]["area"];
+document.getElementById("topic").innerHTML = problems[Math.floor(Math.random() * problems.length)]["topic"];
+document.getElementById("diff").innerHTML = problems[Math.floor(Math.random() * problems.length)]["diff"];
 MathJax.typeset();
