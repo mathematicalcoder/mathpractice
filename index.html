@@ -12,9 +12,9 @@
     <script src="https://mathematicalcoder.github.io/contestweb/assets/include.js"></script>
     <script>
       if (typeof(Storage) == "undefined") {
-        document.getElementById("web-storage-compatibility").innerHTML = "Oh no! Your browser does not support web storage! Use a newer browser (Chrome 4.0+, MS Edge 8.0+, Firefox 3.5+, Safari 4.0+, or Opera 11.5+) to be able to save your contest and training data in this website."
+        document.getElementById("web-storage-compatibility").innerHTML = "Oh no! Your browser does not support web storage! Use a newer browser (Chrome 4.0+, MS Edge 8.0+, Firefox 3.5+, Safari 4.0+, or Opera 11.5+) to be able to save your practice data in this website.";
       } else {
-        document.getElementById("web-storage-compatibility").innerHTML = "Your browser supports web storage. It is able to save your contest and training data in this website."
+        document.getElementById("web-storage-compatibility").innerHTML = "Your browser supports web storage. It is able to save your contest and training data in this website.";
       }
     </script>
     <script type="module" src="./assets/pgen.js"></script>
@@ -23,7 +23,7 @@
       <div class="alert alert-warning">
         <b>Note that this website is still under construction.</b>
       </div>
-      <button type="button" class="btn btn-primary" onclick="giveProblem();">
+      <button type="button" class="btn btn-primary" onclick="giveProblem()">
         New Problem
       </button>
       <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#compatibility">
