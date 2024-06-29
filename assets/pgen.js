@@ -32,3 +32,4 @@ function giveProblem() {
 }
 
 giveProblem();
+document.getElementById("newProblem").addEventListener("click", giveProblem);
