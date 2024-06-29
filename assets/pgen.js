@@ -20,11 +20,15 @@ var problems = [
         "solution": ""
     }
 ];
-var index = Math.floor(Math.random() * problems.length);
 
-document.getElementById("problem").innerHTML = problems[index]["problem"];
-document.getElementById("source").innerHTML = problems[index]["source"];
-document.getElementById("area").innerHTML = problems[index]["area"];
-document.getElementById("topic").innerHTML = problems[index]["topic"];
-document.getElementById("diff").innerHTML = problems[index]["diff"];
-MathJax.typeset();
+function giveProblem() {
+    var index = Math.floor(Math.random() * problems.length);
+    document.getElementById("problem").innerHTML = problems[index]["problem"];
+    document.getElementById("source").innerHTML = problems[index]["source"];
+    document.getElementById("area").innerHTML = problems[index]["area"];
+    document.getElementById("topic").innerHTML = problems[index]["topic"];
+    document.getElementById("diff").innerHTML = problems[index]["diff"];
+    MathJax.typeset();
+}
+
+giveProblem();
