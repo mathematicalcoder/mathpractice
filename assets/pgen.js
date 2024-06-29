@@ -58,7 +58,7 @@ function giveProblem() {
     document.getElementById("area").innerHTML = problems[index]["area"];
     document.getElementById("topic").innerHTML = problems[index]["topic"];
     document.getElementById("diff").innerHTML = problems[index]["diff"];
-    document.getElementById("id").innerHTML = str(index + 1);
+    document.getElementById("id").innerHTML = index + 1;
     MathJax.typeset();
 }
 
