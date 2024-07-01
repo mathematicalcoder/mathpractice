@@ -26,7 +26,7 @@ var problems = [
         "topic": "Circle Equations",
         "source": "Original",
         "problem": "Rewrite the equation \\(x^2-6x+y^2-10x=-18\\) in standard form.",
-        "answer": "",
+        "answer": "\\((x-3)^2+(y-5)^2=16\\)",
         "solution": ""
     },
     {
@@ -36,7 +36,7 @@ var problems = [
         "topic": "Circle Equations",
         "source": "Original",
         "problem": "Find the area of the circle given by \\(x^2+2 x+y^2-6 x=-10\\).",
-        "answer": "",
+        "answer": "\\(0\\)",
         "solution": ""
     },
     {
