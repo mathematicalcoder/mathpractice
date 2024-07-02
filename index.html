@@ -17,12 +17,12 @@
     <div class="container-xl mt-3 border">
       <p class="display-4">Math Practice Website</p>
       <div class="alert alert-warning">
-        <b>This website is still under construction. Additionally, the dropdowns are not yet functional.</b>
+        <b>This website is still under construction. Additionally, the answer input box is not yet functional.</b>
       </div>
     </div>
     <div class="container-xl mt-3">
       <div class="btn-group">
-      <div class="dropdown">
+      <!--<div class="dropdown">
         <button class="btn btn-default dropdown-toggle" type="button" id="menu1" data-bs-toggle="dropdown">Area
           <span class="caret"></span></button>
           <ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
@@ -39,7 +39,7 @@
             <li role="presentation" class="divider"></li>
             <li role="presentation"><a role="menuitem" tabindex="-1" href="#">All Topics</a></li>
           </ul>
-      </div>
+      </div>-->
       <button type="button" class="btn btn-primary" id="newProblem">
         New Problem
       </button>
@@ -68,6 +68,10 @@
     <div class="container-xl mt-4 p-2 bg-secondary text-white rounded">
       <h3>Problem</h3>
       <p><span id="problem"></span></p>
+      <div class="row" id="inputAnsRow">
+        <div class="col-md-8"><input type="text" class="form-control" id="inputAns" placeholder="Enter answer (not functional)"></div>
+        <div class="col-md-4"><button class="btn btn-success">Submit Answer</button></div>
+      </div>
     </div>
     <div class="container-xl mt-3 border">
       <h3>Details</h3>
