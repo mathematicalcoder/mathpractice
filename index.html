@@ -43,11 +43,43 @@
       <button type="button" class="btn btn-primary" id="newProblem">
         New Problem
       </button>
+      <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#formatting" id="newProblem">
+        Answer Formatting Tips
+      </button>
       <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#compatibility">
         Check Browser Compatibility
       </button>
       </div>
-      
+
+      <!-- formatting modal -->
+      <div class="modal" id="formatting">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h4 class="modal-title">Formatting Tips</h4>
+              <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+            </div>
+            <div class="modal-body">
+              <p>Please take time to read these important reminders on how to format your answer.</p>
+              <ul>
+                <li>Only exact answers in their lowest terms will be accepted by the computer.</li>
+                <li>Do not put any spaces anywhere in your answer. For example, x^2 + 2x is not accepted, but x^2+2x is.</li>
+                <li>Do not put commas between digits. For example, 1,036 is not accepted, but 1036 is.</li>
+                <li>Keep in mind the order of operations when writing expressions. For example, x+3/5 is interpreted as \(x+\frac35\), while (x+3)/5 is interpreted as \(\frac{x+3}5\).</li>
+                <li>Fractions must be written as a/b, where a and b are relatively prime integers and b is not negative. For example, \(\frac23\) must be written as 2/3.</li>
+                <li>Do not use mixed numbers unless stated by the question. Mixed numbers must be written as c a/b, where c is the integer part of the mixed number. For example, \(1\frac23\) must be written as 1 2/3.</li>
+                <li>Exponents must be written as a^b, where a is the base and b is the exponent. Only use this if it will take a long time or is impossible for a human to evaluate the exact value of the exponent.</li>
+                <li>Square roots must be written as sqrt(a), where a is the radicand. Be sure to simplify your radical!</li>
+                <li>Radicals other than square roots must be written as sqrt[b](a), where b is the index and a is the radicand. Be sure to simplify your radical!</li>
+                <li>Interval notation must be written as one would normally do on paper, but using inf for infinity and the letter U for union. For example, \([-\infty,-3)U(3,+\infty)\) must be written as [-inf,-3)U(3,+inf).</li>
+                <li>When a number is multiplied by a variable, write the coefficient before the variable even though the coefficient is a fraction. For example, write 1/3x and not x/3, and sqrt(2)x and not x*sqrt(2).</li>
+                <li>The constants \(\pi\), \(e\), and \(i\) must be written as pi, e, and i, respectively. Do not use * when multiplying them with other numbers.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
       <!-- compatibility modal -->
       <div class="modal" id="compatibility">
         <div class="modal-dialog">
@@ -57,8 +89,8 @@
               <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
             </div>
             <div class="modal-body">
-              <b>Web storage compatibility:</b> <span id="web-storage-compatibility"></span> <br><br>
-              <b>MathJax compatibility:</b> If you see two equations below (one small and one big), your browser is compatible with MathJax and you are able to see all the equations rendered in this website. (Try right-clicking on one of the equations!)<br>\(x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}\)\[x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}\]
+              <p><b>Web storage compatibility:</b> <span id="web-storage-compatibility"></span></p>
+              <p><b>MathJax compatibility:</b> If you see two equations below (one small and one big), your browser is compatible with MathJax and you are able to see all the equations rendered in this website. (Try right-clicking on one of the equations!)<br>\(x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}\)\[x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}\]</p>
             </div>
           </div>
         </div>

@@ -7,6 +7,7 @@ var problems = [
         "source": "Original",
         "problem": "Graph the equation \\((x-4)^2-16=-(y-1)^2\\).",
         "answer": "",
+        "userAns": "",
         "solution": ""
     },
     {
@@ -17,6 +18,7 @@ var problems = [
         "source": "Original",
         "problem": "Write the equation of the circle that has diameter \\(\\overline{AB}\\) where \\(A(-2,3)\\) and \\(B(-5,7)\\). Express your answer in standard form.",
         "answer": "",
+        "userAns": "",
         "solution": ""
     },
     {
@@ -27,6 +29,7 @@ var problems = [
         "source": "Original",
         "problem": "Rewrite the equation \\(x^2-6x+y^2-10x=-18\\) in standard form.",
         "answer": "\\((x-3)^2+(y-5)^2=16\\)",
+        "userAns": "(x-3)^2+(y-5)^2=16",
         "solution": ""
     },
     {
@@ -47,6 +50,7 @@ var problems = [
         "source": "Original",
         "problem": "Graph the equation \\(2 x^2-16 x+2 y^2-4 y=-30\\).",
         "answer": "",
+        "userAns": "",
         "solution": ""
     }
 ];
