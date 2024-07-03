@@ -81,5 +81,23 @@ function giveProblem() {
     MathJax.typeset();
 }
 
+function checkAnswer() {
+    if (document.getElementById("inputAns").value == problems[index]["userAns"]) {
+        document.getElementById("ansStatus").innerHTML = "Your answer is correct!";
+        document.getElementById("ansStatus").className = "text-success";
+        document.getElementById("inputAns").disabled = true;
+    }
+    else {
+        document.getElementById("ansStatus").innerHTML = "Your answer is incorrect. Try again!";
+        document.getElementById("ansStatus").className = "text-danger";
+    }
+}
+
+function disableAnsField() {
+    document.getElementById("inputAns").disabled = true;
+}
+
 giveProblem();
 document.getElementById("newProblem").addEventListener("click", giveProblem);
+document.getElementById("submitAns").addEventListener("click", checkAnswer);
+document.getElementById("showAnsSoln").addEventListener("click", disableAnsField);

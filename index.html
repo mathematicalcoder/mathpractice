@@ -101,9 +101,10 @@
       <h3>Problem</h3>
       <p><span id="problem"></span></p>
       <div class="row" id="inputAnsRow">
-        <div class="col-md-10"><input type="text" class="form-control" id="inputAns" placeholder="Enter answer (not functional)"></div>
-        <div class="col-md-2"><button class="btn btn-success">Submit Answer</button></div>
+        <div class="col-md-10"><input type="text" class="form-control" id="inputAns" placeholder="Enter answer"></div>
+        <div class="col-md-2"><button class="btn btn-success" id="submitAns">Submit Answer</button></div>
       </div>
+      <p><span id="ansStatus"></span></p>
     </div>
     <div class="container-xl mt-3 border">
       <h3>Details</h3>
@@ -116,7 +117,7 @@
     </div>
     <div class="container-xl mt-3 border">
       <h3>Answer and Solution</h3>
-      <button data-bs-toggle="collapse" data-bs-target="#ansSoln" class="btn btn-danger">Show Answer and Solution</button>
+      <button data-bs-toggle="collapse" data-bs-target="#ansSoln" class="btn btn-danger" id="showAnsSoln">Show Answer and Solution</button>
       <div id="ansSoln" class="collapse">
         <p><b>Answer:</b> <span id="answer"></span><br></p>
         <p><b>Solution:</b> <span id="solution"></span></p>
