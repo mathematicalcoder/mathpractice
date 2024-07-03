@@ -55,8 +55,10 @@ var problems = [
     }
 ];
 
+var index = 0;
+
 function giveProblem() {
-    var index = Math.floor(Math.random() * problems.length);
+    index = Math.floor(Math.random() * problems.length);
     document.getElementById("problem").innerHTML = problems[index]["problem"];
     document.getElementById("source").innerHTML = problems[index]["source"];
     document.getElementById("area").innerHTML = problems[index]["area"];
@@ -79,6 +81,8 @@ function giveProblem() {
     }
 
     MathJax.typeset();
+
+    return index;
 }
 
 function checkAnswer() {
