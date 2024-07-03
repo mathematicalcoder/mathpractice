@@ -81,8 +81,6 @@ function giveProblem() {
     }
 
     MathJax.typeset();
-
-    return index;
 }
 
 function checkAnswer() {
