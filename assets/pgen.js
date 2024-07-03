@@ -88,12 +88,12 @@ function giveProblem() {
 function checkAnswer() {
     if (document.getElementById("inputAns").value == problems[index]["userAns"]) {
         document.getElementById("ansStatus").innerHTML = "Your answer is correct!";
-        document.getElementById("ansStatus").className = "alert alert-success";
+        document.getElementById("ansStatus").className = "alert alert-success my-2";
         document.getElementById("inputAns").disabled = true;
     }
     else {
         document.getElementById("ansStatus").innerHTML = "Your answer is incorrect. Try again!";
-        document.getElementById("ansStatus").className = "alert alert-danger";
+        document.getElementById("ansStatus").className = "alert alert-danger my-2";
     }
 }
 
