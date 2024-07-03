@@ -59,6 +59,8 @@ var index = 0;
 
 function giveProblem() {
     document.getElementById("inputAns").disabled = false;
+    document.getElementById("ansStatus").innerHTML = "";
+    document.getElementById("ansStatus").className = "";
 
     index = Math.floor(Math.random() * problems.length);
     document.getElementById("problem").innerHTML = problems[index]["problem"];
