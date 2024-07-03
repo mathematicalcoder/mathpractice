@@ -58,6 +58,8 @@ var problems = [
 var index = 0;
 
 function giveProblem() {
+    document.getElementById("inputAns").disabled = false;
+
     index = Math.floor(Math.random() * problems.length);
     document.getElementById("problem").innerHTML = problems[index]["problem"];
     document.getElementById("source").innerHTML = problems[index]["source"];
@@ -86,12 +88,12 @@ function giveProblem() {
 function checkAnswer() {
     if (document.getElementById("inputAns").value == problems[index]["userAns"]) {
         document.getElementById("ansStatus").innerHTML = "Your answer is correct!";
-        document.getElementById("ansStatus").className = "text-success";
+        document.getElementById("ansStatus").className = "alert alert-success";
         document.getElementById("inputAns").disabled = true;
     }
     else {
         document.getElementById("ansStatus").innerHTML = "Your answer is incorrect. Try again!";
-        document.getElementById("ansStatus").className = "text-danger";
+        document.getElementById("ansStatus").className = "alert alert-danger";
     }
 }
 
