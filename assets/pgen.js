@@ -58,7 +58,15 @@ var problems = [
 var index = 0;
 
 function giveProblem() {
-    document.getElementById("inputAns").disabled = false;
+    if (inputAns == true) {
+        document.getElementById("inputAns").disabled = false;
+        document.getElementById("submitAns").disabled = false;
+    }
+    else {
+        document.getElementById("inputAns").disabled = true;
+        document.getElementById("submitAns").disabled = true;
+    }
+    
     document.getElementById("ansStatus").innerHTML = "";
     document.getElementById("ansStatus").className = "";
 
@@ -92,6 +100,7 @@ function checkAnswer() {
         document.getElementById("ansStatus").innerHTML = "<b>Your answer is correct!</b>";
         document.getElementById("ansStatus").className = "alert alert-success my-2";
         document.getElementById("inputAns").disabled = true;
+        document.getElementById("submitAns").disabled = true;
     }
     else {
         document.getElementById("ansStatus").innerHTML = "<b>Your answer is incorrect. Try again!</b>";
