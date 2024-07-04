@@ -110,6 +110,7 @@ function checkAnswer() {
 
 function disableAnsField() {
     document.getElementById("inputAns").disabled = true;
+    document.getElementById("submitAns").disabled = true;
 }
 
 giveProblem();
