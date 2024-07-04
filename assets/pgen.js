@@ -58,7 +58,12 @@ var problems = [
 var index = 0;
 
 function giveProblem() {
-    if (inputAns == true) {
+    document.getElementById("ansStatus").innerHTML = "";
+    document.getElementById("ansStatus").className = "";
+
+    index = Math.floor(Math.random() * problems.length);
+
+    if (problems[index]["inputAns"] == true) {
         document.getElementById("inputAns").disabled = false;
         document.getElementById("submitAns").disabled = false;
     }
@@ -66,11 +71,7 @@ function giveProblem() {
         document.getElementById("inputAns").disabled = true;
         document.getElementById("submitAns").disabled = true;
     }
-    
-    document.getElementById("ansStatus").innerHTML = "";
-    document.getElementById("ansStatus").className = "";
 
-    index = Math.floor(Math.random() * problems.length);
     document.getElementById("problem").innerHTML = problems[index]["problem"];
     document.getElementById("source").innerHTML = problems[index]["source"];
     document.getElementById("area").innerHTML = problems[index]["area"];
