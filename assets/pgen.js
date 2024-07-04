@@ -40,6 +40,7 @@ var problems = [
         "source": "Original",
         "problem": "Find the area of the circle given by \\(x^2+2 x+y^2-6 x=-10\\).",
         "answer": "\\(0\\)",
+        "userAns": "0",
         "solution": ""
     },
     {
