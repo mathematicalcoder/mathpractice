@@ -53,6 +53,105 @@ var problems = [
         "answer": "",
         "userAns": "",
         "solution": ""
+    },
+    {
+        "inputAns": true,
+        "diff": 2,
+        "area": "Geometry",
+        "topic": "Basic Geometric Terms and Notations",
+        "source": "Original",
+        "problem": "Are two distinct points always, sometimes, or never collinear?",
+        "answer": "Always",
+        "userAns": "A",
+        "solution": ""
+    },
+    {
+        "inputAns": true,
+        "diff": 2,
+        "area": "Geometry",
+        "topic": "Basic Geometric Terms and Notations",
+        "source": "Original",
+        "problem": "Do two distinct points always, sometimes, or never determine a line?",
+        "answer": "Always",
+        "userAns": "A",
+        "solution": ""
+    },
+    {
+        "inputAns": true,
+        "diff": 2,
+        "area": "Geometry",
+        "topic": "Basic Geometric Terms and Notations",
+        "source": "Original",
+        "problem": "Are three distinct points always, sometimes, or never coplanar?",
+        "answer": "Always",
+        "userAns": "A",
+        "solution": ""
+    },
+    {
+        "inputAns": true,
+        "diff": 2,
+        "area": "Geometry",
+        "topic": "Basic Geometric Terms and Notations",
+        "source": "Original",
+        "problem": "Do three distinct points always, sometimes, or never determine a plane?",
+        "answer": "Sometimes",
+        "userAns": "S",
+        "solution": ""
+    },
+    {
+        "inputAns": true,
+        "diff": 2,
+        "area": "Geometry",
+        "topic": "Basic Geometric Terms and Notations",
+        "source": "Original",
+        "problem": "Does a line segment always, sometimes, or never contain a finite number of points?",
+        "answer": "Never",
+        "userAns": "N",
+        "solution": ""
+    },
+    {
+        "inputAns": true,
+        "diff": 2,
+        "area": "Geometry",
+        "topic": "Basic Geometric Terms and Notations",
+        "source": "Original",
+        "problem": "Does a line always, sometimes, or never contain an infinite number of points?",
+        "answer": "Always",
+        "userAns": "A",
+        "solution": ""
+    },
+    {
+        "inputAns": true,
+        "diff": 2,
+        "area": "Geometry",
+        "topic": "Basic Geometric Terms and Notations",
+        "source": "Original",
+        "problem": "Does a plane always, sometimes, or never contain an infinite number of lines?",
+        "answer": "Always",
+        "userAns": "A",
+        "solution": ""
+    },
+    {
+        "inputAns": true,
+        "diff": 2,
+        "area": "Geometry",
+        "topic": "Basic Geometric Terms and Notations",
+        "source": "Original",
+        "problem": "If \(A\) and \(B\) are not necessarily distinct, can \(\overrightarrow{AB}\) always, sometimes, or never also be called \(\overrightarrow{BA}\)?",
+        "answer": "Sometimes",
+        "userAns": "S",
+        "solution": ""
+    },
+    {
+        "inputAns": true,
+        "diff": 2,
+        "area": "Geometry",
+        "topic": "Basic Geometric Terms and Notations",
+        "source": "Original",
+        "problem": "If \(A\) and \(B\) are not necessarily distinct, can \(\overline{AB}\) always, sometimes, or never also be called \(\overline{BA}\)?",
+        "answer": "Always",
+        "userAns": "A",
+        "solution": ""
     }
 ];
 
