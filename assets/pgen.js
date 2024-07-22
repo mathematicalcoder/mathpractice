@@ -137,7 +137,7 @@ var problems = [
         "area": "Geometry",
         "topic": "Basic Geometric Terms and Notations",
         "source": "Original",
-        "problem": "If \\(A\) and \\(B\\) are not necessarily distinct, can \\(\\overrightarrow{AB}\\) always, sometimes, or never also be called \\(\\overrightarrow{BA}\\)?",
+        "problem": "If \\(A\\) and \\(B\\) are not necessarily distinct, can \\(\\overrightarrow{AB}\\) always, sometimes, or never also be called \\(\\overrightarrow{BA}\\)?",
         "answer": "Sometimes",
         "userAns": "S",
         "solution": ""
