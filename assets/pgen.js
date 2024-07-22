@@ -148,7 +148,7 @@ var problems = [
         "area": "Geometry",
         "topic": "Basic Geometric Terms and Notations",
         "source": "Original",
-        "problem": "If \\(A\\) and \\(B\\) are not necessarily distinct, can \\(\overline{AB}\\) always, sometimes, or never also be called \\(\\overline{BA}\\)?",
+        "problem": "If \\(A\\) and \\(B\\) are not necessarily distinct, can \\(\\overline{AB}\\) always, sometimes, or never also be called \\(\\overline{BA}\\)?",
         "answer": "Always",
         "userAns": "A",
         "solution": ""
