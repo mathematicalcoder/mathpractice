@@ -18,29 +18,15 @@
       <p class="display-4">Math Practice Website</p>
       <div id="ansStatus"></div>
       <div class="alert alert-warning">
-        <b>This website is still under construction.</b>
+        <b>This website is still under construction. Additionally, the dropdowns are not yet functional.</b>
       </div>
     </div>
     <div class="container-xl mt-3">
       <div class="btn-group">
-      <!--<div class="dropdown">
-        <button class="btn btn-default dropdown-toggle" type="button" id="menu1" data-bs-toggle="dropdown">Area
-          <span class="caret"></span></button>
-          <ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
-            <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Algebra</a></li>
-            <li role="presentation" class="divider"></li>
-            <li role="presentation"><a role="menuitem" tabindex="-1" href="#">All Areas</a></li>
-          </ul>
-      </div>
-      <div>
-        <button class="btn btn-default dropdown-toggle" type="button" id="menu1" data-bs-toggle="dropdown">Topic
-          <span class="caret"></span></button>
-          <ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
-            <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Circle Equations</a></li>
-            <li role="presentation" class="divider"></li>
-            <li role="presentation"><a role="menuitem" tabindex="-1" href="#">All Topics</a></li>
-          </ul>
-      </div>-->
+        <select name="topic" id="topic" class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">
+          <option value="g_bgtn">Basic Geometry Terms and Notations</option>
+          <option value="a_ce">Circle Equations</option>
+        </select>
       <button type="button" class="btn btn-primary" id="newProblem">
         New Problem
       </button>
