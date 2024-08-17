@@ -193,6 +193,8 @@ var filteredProblems = [];
 var index = 0;
 
 function giveProblem() {
+    filteredProblems = [];
+
     document.getElementById("ansStatus").innerHTML = "";
     document.getElementById("ansStatus").className = "";
 
@@ -222,21 +224,25 @@ function giveProblem() {
     document.getElementById("topic").innerHTML = filteredProblems[index]["topic"];
     document.getElementById("diff").innerHTML = filteredProblems[index]["diff"];
 
-    if (problems[index]["answer"] == "") {
+    if (filteredProblems[index]["answer"] == "") {
         document.getElementById("answer").innerHTML = "The problem curator has not yet given an answer for this problem.";
     }
     else {
         document.getElementById("answer").innerHTML = filteredProblems[index]["answer"];
     }
 
-    if (problems[index]["solution"] == "") {
+    if (filteredProblems[index]["solution"] == "") {
         document.getElementById("solution").innerHTML = "The problem curator has not yet given a solution for this problem.";
     }
     else {
         document.getElementById("solution").innerHTML = filteredProblems[index]["solution"];
     }
 
-    MathJax.typeset();
+    MathJax.typesetPromise().then(() => {
+        MathJax.typesetPromise();
+      }).catch((err) => {
+        console.error("MathJax didn't process", err)
+      });
 }
 
 function checkAnswer() {
