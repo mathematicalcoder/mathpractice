@@ -188,15 +188,25 @@ var problems = [
     },
 ];
 
+var filteredProblems = [];
+
 var index = 0;
 
 function giveProblem() {
     document.getElementById("ansStatus").innerHTML = "";
     document.getElementById("ansStatus").className = "";
 
-    index = Math.floor(Math.random() * problems.length);
+    var chosenTopic = document.getElementById("choosetopic").value;
 
-    if (problems[index]["inputAns"] == true) {
+    for (let i = 0; i < problems.length; i++) {
+        if (problems[i]["topic"] == chosenTopic) {
+            filteredProblems.push(problems[i]);
+        }
+    }
+
+    index = Math.floor(Math.random() * filteredProblems.length);
+
+    if (filteredProblems[index]["inputAns"] == true) {
         document.getElementById("inputAns").disabled = false;
         document.getElementById("submitAns").disabled = false;
     }
@@ -205,31 +215,30 @@ function giveProblem() {
         document.getElementById("submitAns").disabled = true;
     }
 
-    document.getElementById("problem").innerHTML = problems[index]["problem"];
-    document.getElementById("source").innerHTML = problems[index]["source"];
-    document.getElementById("topic").innerHTML = problems[index]["topic"];
-    document.getElementById("diff").innerHTML = problems[index]["diff"];
-    document.getElementById("id").innerHTML = index + 1;
+    document.getElementById("problem").innerHTML = filteredProblems[index]["problem"];
+    document.getElementById("source").innerHTML = filteredProblems[index]["source"];
+    document.getElementById("topic").innerHTML = filteredProblems[index]["topic"];
+    document.getElementById("diff").innerHTML = filteredProblems[index]["diff"];
 
     if (problems[index]["answer"] == "") {
         document.getElementById("answer").innerHTML = "The problem curator has not yet given an answer for this problem.";
     }
     else {
-        document.getElementById("answer").innerHTML = problems[index]["answer"];
+        document.getElementById("answer").innerHTML = probfilteredProblemslems[index]["answer"];
     }
 
     if (problems[index]["solution"] == "") {
         document.getElementById("solution").innerHTML = "The problem curator has not yet given a solution for this problem.";
     }
     else {
-        document.getElementById("solution").innerHTML = problems[index]["solution"];
+        document.getElementById("solution").innerHTML = filteredProblems[index]["solution"];
     }
 
     MathJax.typeset();
 }
 
 function checkAnswer() {
-    if (document.getElementById("inputAns").value == problems[index]["userAns"]) {
+    if (document.getElementById("inputAns").value == filteredProblems[index]["userAns"]) {
         document.getElementById("ansStatus").innerHTML = "<b>Your answer is correct!</b>";
         document.getElementById("ansStatus").className = "alert alert-success my-2";
         document.getElementById("inputAns").disabled = true;
