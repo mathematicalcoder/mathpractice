@@ -44,7 +44,7 @@ var problems = [
         "solution": ""
     },
     {
-        "inputAns": true,
+        "inputAns": false,
         "diff": 2,
         "area": "Algebra",
         "topic": "Circle Equations",
@@ -218,7 +218,7 @@ function giveProblem() {
 
     index = Math.floor(Math.random() * filteredProblems.length);
 
-    if (filteredProblems[index]["inputAns"] == true) {
+    if (filteredProblems[index]["inputAns"] === true) {
         document.getElementById("inputAns").disabled = false;
         document.getElementById("submitAns").disabled = false;
     }
