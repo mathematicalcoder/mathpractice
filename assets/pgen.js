@@ -204,7 +204,7 @@ function giveProblem() {
         }
     }
 
-    console.log(filteredProblems)
+    console.log(filteredProblems);
 
     index = Math.floor(Math.random() * filteredProblems.length);
 
