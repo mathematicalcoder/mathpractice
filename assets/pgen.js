@@ -206,7 +206,15 @@ function giveProblem() {
         }
     }
 
-    console.log(filteredProblems);
+    if (filteredProblems.length == 0) {
+        document.getElementById("problem").innerHTML = "There are no problems available.";
+        document.getElementById("source").innerHTML = "";
+        document.getElementById("topic").innerHTML = "";
+        document.getElementById("diff").innerHTML = "";
+        document.getElementById("answer").innerHTML = "";
+        document.getElementById("solution").innerHTML = "";
+        return;
+    }
 
     index = Math.floor(Math.random() * filteredProblems.length);
 
