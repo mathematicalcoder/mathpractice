@@ -159,7 +159,7 @@ var problems = [
         "area": "Geometry",
         "topic": "Basic Geometric Terms and Notations",
         "source": "Original",
-        "problem": 'Consider the figure below.<center><img src="https://i.postimg.cc/0ykj8B5w/image.png" width="250" /></center>How many line segments can be formed from the four labeled points on the line?',
+        "problem": 'Consider the figure below.<center><img src="assets/images/linewith4pts.png" width="250" /></center>How many line segments can be formed from the four labeled points on the line?',
         "answer": "\\(6\\)",
         "userAns": "6",
         "solution": ""
@@ -170,7 +170,7 @@ var problems = [
         "area": "Geometry",
         "topic": "Basic Geometric Terms and Notations",
         "source": "Original",
-        "problem": 'Consider the figure below.<center><img src="https://i.postimg.cc/0ykj8B5w/image.png" width="250" /></center>How many rays can be formed from the four labeled points on the line?',
+        "problem": 'Consider the figure below.<center><img src="assets/images/linewith4pts.png" width="250" /></center>How many rays can be formed from the four labeled points on the line?',
         "answer": "\\(12\\)",
         "userAns": "12",
         "solution": ""
@@ -181,7 +181,7 @@ var problems = [
         "area": "Geometry",
         "topic": "Basic Geometric Terms and Notations",
         "source": "Original",
-        "problem": 'Consider the figure below.<center><img src="https://i.postimg.cc/0ykj8B5w/image.png" width="250" /></center>How many non-congruent line segments can be formed from the four labeled points on the line?',
+        "problem": 'Consider the figure below.<center><img src="assets/images/linewith4pts.png" width="250" /></center>How many non-congruent line segments can be formed from the four labeled points on the line?',
         "answer": "\\(3\\)",
         "userAns": "3",
         "solution": ""
