@@ -207,7 +207,6 @@ function giveProblem() {
 
     document.getElementById("problem").innerHTML = problems[index]["problem"];
     document.getElementById("source").innerHTML = problems[index]["source"];
-    document.getElementById("area").innerHTML = problems[index]["area"];
     document.getElementById("topic").innerHTML = problems[index]["topic"];
     document.getElementById("diff").innerHTML = problems[index]["diff"];
     document.getElementById("id").innerHTML = index + 1;
