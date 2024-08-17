@@ -224,7 +224,7 @@ function giveProblem() {
         document.getElementById("answer").innerHTML = "The problem curator has not yet given an answer for this problem.";
     }
     else {
-        document.getElementById("answer").innerHTML = probfilteredProblemslems[index]["answer"];
+        document.getElementById("answer").innerHTML = filteredProblems[index]["answer"];
     }
 
     if (problems[index]["solution"] == "") {
