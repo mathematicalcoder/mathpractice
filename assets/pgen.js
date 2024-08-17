@@ -204,6 +204,8 @@ function giveProblem() {
         }
     }
 
+    console.log(filteredProblems)
+
     index = Math.floor(Math.random() * filteredProblems.length);
 
     if (filteredProblems[index]["inputAns"] == true) {
