@@ -188,7 +188,7 @@ export const problems = [
     },
     {
         "inputAns": true,
-        "diff": 1,
+        "diff": 2,
         "area": "Geometry",
         "topic": "Distance and Midpoint Formulas",
         "source": "Original (Kaiser Chan)",
@@ -199,7 +199,7 @@ export const problems = [
     },
     {
         "inputAns": true,
-        "diff": 1,
+        "diff": 2,
         "area": "Geometry",
         "topic": "Distance and Midpoint Formulas",
         "source": "Original (Kaiser Chan and Caleb Esteban)",
@@ -207,5 +207,16 @@ export const problems = [
         "answer": "\\(\\frac{\\sqrt{13}}2\\)",
         "userAns": "1/2sqrt(13)",
         "solution": "<i>Solution 1:</i> The midpoint of $\\overline{AB}$ is $$\\left(\\frac{2+(-1)}{2},\\frac{4+6}{2}\\right)=\\left(\\frac12,5\\right).$$ We then get the distance between this point and one of $A$ and $B$ to get the length of our radius. Here, we choose $A$. By the distance formula, we get that the length of the radius is $$\\sqrt{(2-1/2)^2+(4-5)^2}=\\boxed{\\frac{\\sqrt{13}}2}.$$<br><br><i>Solution 2:</i> The length of the diameter of the circle, or the distance between $A$ and $B$ (expressed as $AB$), is $$\\sqrt{(2-(-1))^2+(4-6)^2}=\\sqrt{13}$$ by the distance formula. The radius is half of the diameter, so the length of the radius is $\\boxed{\\sqrt{13}/2}.$"
+    },
+    {
+        "inputAns": true,
+        "diff": 1,
+        "area": "Geometry",
+        "topic": "Distance and Midpoint Formulas",
+        "source": "Original (Kaiser Chan)",
+        "problem": 'What is the distance between $(3,-2)$ and $(-4,5)$?',
+        "answer": "\\(7\\sqrt2\\)",
+        "userAns": "7sqrt(2)",
+        "solution": "By the distance formula, we get that the distance between the two points is $\\sqrt{(3-(-4))^2+((-2)-5)^2}=\\sqrt{7^2+7^2}=\\boxed{7\\sqrt2}$."
     },
 ];
