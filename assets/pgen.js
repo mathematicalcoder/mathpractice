@@ -5,6 +5,10 @@ var filteredProblems = [];
 var index = 0;
 
 function giveProblem() {
+    $(".btn-warning").click(function(){
+        $(".collapse").collapse('hide');
+      });
+    
     filteredProblems = [];
 
     document.getElementById("ansStatus").innerHTML = "";
