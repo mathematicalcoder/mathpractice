@@ -5,9 +5,6 @@ var filteredProblems = [];
 var index = 0;
 
 function giveProblem() {
-    $(".btn-warning").click(function(){
-        $(".collapse").collapse('hide');
-      });
     
     filteredProblems = [];
 
@@ -42,6 +39,8 @@ function giveProblem() {
         document.getElementById("inputAns").disabled = true;
         document.getElementById("submitAns").disabled = true;
     }
+
+    document.getElementById("ansSoln").style.display = "none";
 
     document.getElementById("problem").innerHTML = filteredProblems[index]["problem"];
     document.getElementById("source").innerHTML = filteredProblems[index]["source"];
