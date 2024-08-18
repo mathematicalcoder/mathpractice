@@ -202,7 +202,7 @@ export const problems = [
         "diff": 1,
         "area": "Geometry",
         "topic": "Distance and Midpoint Formulas",
-        "source": "Original (Kaiser Chan)",
+        "source": "Original (Kaiser Chan and Caleb Esteban)",
         "problem": 'Siklab and his friends are playing a game on the Cartesian plane. Everyone except Sparky forms a perfect circle. Sparky is blindfolded and is located at the center of the circle. Siklab is situated on the point $A(2,4)$ and the friend diametrically opposite to him is located at $B(-1,6)$. What is the minimum distance Sparky has to walk to find Siklab?',
         "answer": "\\(\\frac{\\sqrt{13}}2\\)",
         "userAns": "1/2sqrt(13)",
