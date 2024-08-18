@@ -204,8 +204,8 @@ export const problems = [
         "topic": "Distance and Midpoint Formulas",
         "source": "Original (Kaiser Chan)",
         "problem": 'Siklab and his friends are playing a game on the Cartesian plane. Everyone except Sparky forms a perfect circle. Sparky is blindfolded and is located at the center of the circle. Siklab is situated on the point $A(2,4)$ and the friend diametrically opposite to him is located at $B(-1,6)$. What is the minimum distance Sparky has to walk to find Siklab?',
-        "answer": "\\(\\frac{13}4\\pi\\)",
-        "userAns": "13/4pi",
+        "answer": "\\(\\frac{\\sqrt{13}}2\\)",
+        "userAns": "1/2sqrt(13)",
         "solution": "<i>Solution 1:</i> The midpoint of $\\overline{AB}$ is $$\\left(\\frac{2+(-1)}{2},\\frac{4+6}{2}\\right)=\\left(\\frac12,5\\right).$$ We then get the distance between this point and one of $A$ and $B$ to get the length of our radius. Here, we choose $A$. By the distance formula, we get that the length of the radius is $$\\sqrt{(2-1/2)^2+(4-5)^2}=\\boxed{\\frac{\\sqrt{13}}2}.$$<br><br><i>Solution 2:</i> The length of the diameter of the circle, or the distance between $A$ and $B$ (expressed as $AB$), is $$\\sqrt{(2-(-1))^2+(4-6)^2}=\\sqrt{13}$$ by the distance formula. The radius is half of the diameter, so the length of the radius is $\\boxed{\\sqrt{13}/2}.$"
     },
 ];
