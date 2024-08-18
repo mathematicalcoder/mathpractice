@@ -40,6 +40,7 @@ function giveProblem() {
         document.getElementById("submitAns").disabled = true;
     }
 
+    document.getElementById("showAnsSoln").disabled = false;
     document.getElementById("ansSoln").style.display = "none";
 
     document.getElementById("problem").innerHTML = filteredProblems[index]["problem"];
@@ -85,6 +86,7 @@ function disableAnsField() {
     document.getElementById("inputAns").disabled = true;
     document.getElementById("submitAns").disabled = true;
     document.getElementById("answerSection").style.display = "block";
+    document.getElementById("showAnsSoln").disabled = true;
 }
 
 giveProblem();
