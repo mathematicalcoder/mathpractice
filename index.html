@@ -23,6 +23,7 @@
         <select name="choosetopic" id="choosetopic" class="form-select">
           <option selected>Choose topic</option>
           <option value="Basic Geometric Terms and Notations">Basic Geometric Terms and Notations</option>
+          <option value="Distance and Midpoint Formulas">Distance and Midpoint Formulas</option>
           <option value="Circle Equations">Circle Equations</option>
         </select>
       <div class="btn-group">
@@ -122,6 +123,12 @@
     </div>
     
     <script>
+      window.MathJax = {
+        tex: {
+          inlineMath: [['$', '$'], ['\\(', '\\)']]
+        }
+      };
+
       if (typeof(Storage) == "undefined") {
         document.getElementById("web-storage-compatibility").innerHTML = "Oh no! Your browser does not support web storage! Use a newer browser (Chrome 4.0+, MS Edge 8.0+, Firefox 3.5+, Safari 4.0+, or Opera 11.5+) to be able to save your practice data in this website.";
       } else {
