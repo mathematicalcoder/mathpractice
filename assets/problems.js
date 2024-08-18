@@ -195,7 +195,7 @@ export const problems = [
         "problem": 'Let $A(3,4)$ and $B(-2,5)$. Then, let $C$ be defined such that $B$ is the midpoint of $\\overline{AC}$. Find the distance from $C$ to the origin.',
         "answer": "\\(\\sqrt{85}\\)",
         "userAns": "sqrt(85)",
-        "solution": ""
+        "solution": "Let $C(x,y)$. Then, we have that $\\frac{3+x}2=-2$ and $\\frac{4+y}2=5$, so $x=-7$ and $y=6$. Hence, the distance from $C$ to the origin (which is $(0,0)$), is $\\sqrt{(-7-0)^2+(6-0)^2}=\\sqrt{7^2+6^2}=\\boxed{\\sqrt{85}}$."
     },
     {
         "inputAns": true,
