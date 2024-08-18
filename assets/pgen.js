@@ -62,6 +62,7 @@ function giveProblem() {
         document.getElementById("solution").innerHTML = filteredProblems[index]["solution"];
     }
 
+    MathJax.typesetClear();
     MathJax.typesetPromise().then(() => {
         MathJax.typesetPromise();
       }).catch((err) => {
