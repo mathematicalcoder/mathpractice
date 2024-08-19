@@ -162,7 +162,7 @@ export const problems = [
         "problem": 'Consider the figure below.<center><img src="assets/images/linewith4pts.png" width="250" /></center>How many line segments can be formed from the four labeled points on the line?',
         "answer": "\\(6\\)",
         "userAns": "6",
-        "solution": ""
+        "solution": "The line segments are $\\overline{AB}$, $\\overline{AC}$, $\\overline{AD}$, $\\overline{BC}$, $\\overline{BD}$, and $\\overline{CD}$, thus an answer of $\\boxed6$. Note that here, the order of the points does not matter."
     },
     {
         "inputAns": true,
@@ -173,7 +173,7 @@ export const problems = [
         "problem": 'Consider the figure below.<center><img src="assets/images/linewith4pts.png" width="250" /></center>How many rays can be formed from the four labeled points on the line?',
         "answer": "\\(12\\)",
         "userAns": "12",
-        "solution": ""
+        "solution": "The rays are $\\overrightarrow{AB}$, $\\overrightarrow{BA}$, $\\overrightarrow{AC}$, $\\overrightarrow{CA}$, $\\overrightarrow{AD}$, $\\overrightarrow{DA}$, $\\overrightarrow{BC}$, $\\overrightarrow{CB}$, $\\overrightarrow{BD}$, $\\overrightarrow{DB}$, $\\overrightarrow{CD}$, and $\\overrightarrow{DC}$, thus an answer of $\\boxed{12}$. Note that here, the order of the points matters."
     },
     {
         "inputAns": true,
@@ -184,7 +184,7 @@ export const problems = [
         "problem": 'Consider the figure below.<center><img src="assets/images/linewith4pts.png" width="250" /></center>How many non-congruent line segments can be formed from the four labeled points on the line?',
         "answer": "\\(3\\)",
         "userAns": "3",
-        "solution": ""
+        "solution": "Say that each of $\\overline{AB}$, $\\overline{BC}$, and $\\overline{CD}$ has length $x$. Then, we can make line segments with length of either $x$, $2x$, or $3x$. This gives $\\boxed3$ non-congruent line segments."
     },
     {
         "inputAns": true,
@@ -218,5 +218,16 @@ export const problems = [
         "answer": "\\(7\\sqrt2\\)",
         "userAns": "7sqrt(2)",
         "solution": "By the distance formula, we get that the distance between the two points is $\\sqrt{(3-(-4))^2+((-2)-5)^2}=\\sqrt{7^2+7^2}=\\boxed{7\\sqrt2}$."
+    },
+    {
+        "inputAns": true,
+        "diff": 1,
+        "area": "Geometry",
+        "topic": "Distance and Midpoint Formulas",
+        "source": "AMC 12 2001 / 20",
+        "problem": 'Points $A = (3,9)$, $B = (1,1)$, $C = (5,3)$, and $D=(a,b)$ lie in the first quadrant and are the vertices of quadrilateral $ABCD$. The quadrilateral formed by joining the midpoints of $\\overline{AB}$, $\\overline{BC}$, $\\overline{CD}$, and $\\overline{DA}$ is a square. What is the sum of the coordinates of point $D$?',
+        "answer": "\\(10\\)",
+        "userAns": "10",
+        "solution": ""
     },
 ];
