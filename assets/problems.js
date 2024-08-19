@@ -221,7 +221,7 @@ export const problems = [
     },
     {
         "inputAns": true,
-        "diff": 1,
+        "diff": 2,
         "area": "Geometry",
         "topic": "Distance and Midpoint Formulas",
         "source": "AMC 12 2001 / 20",
@@ -283,6 +283,28 @@ export const problems = [
         "problem": "Consider the figure below.<center><img src='assets/images/twoplanes6points.png' width='250'></img></center>True or false: There is a unique plane that can be formed with the points $B$, $C$, $D$, and $E$.",
         "answer": "False",
         "userAns": "F",
+        "solution": ""
+    },
+    {
+        "inputAns": true,
+        "diff": 2,
+        "area": "Geometry",
+        "topic": "Circle Equations",
+        "source": "AMC 12B 2017 / 6",
+        "problem": 'The circle having $(0,0)$ and $(8,6)$ as the endpoints of a diameter intersects the $x$-axis at a second point. What is the $x$-coordinate of this point?',
+        "answer": "\\(8\\)",
+        "userAns": "8",
+        "solution": ""
+    },
+    {
+        "inputAns": true,
+        "diff": 3,
+        "area": "Geometry",
+        "topic": "Circle Equations",
+        "source": "AMC 12B 2017 / 9",
+        "problem": 'A circle has center $(-10, -4)$ and has radius $13$. Another circle has center $(3, 9)$ and radius $\sqrt{65}$. The line passing through the two points of intersection of the two circles has equation $x+y=c$. What is $c$?',
+        "answer": "\\(3\\)",
+        "userAns": "3",
         "solution": ""
     },
 ];
