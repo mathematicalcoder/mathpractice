@@ -230,4 +230,59 @@ export const problems = [
         "userAns": "10",
         "solution": ""
     },
+    {
+        "inputAns": true,
+        "diff": 1,
+        "area": "Geometry",
+        "topic": "Basic Geometric Terms and Notations",
+        "source": "Original (Kaiser Chan)",
+        "problem": "Consider the figure below.<center><img src='assets/images/twoplanes6points.png' width='250'></img></center>True or false: $D$, $E$, and $F$ are coplanar.",
+        "answer": "True",
+        "userAns": "T",
+        "solution": ""
+    },
+    {
+        "inputAns": true,
+        "diff": 1,
+        "area": "Geometry",
+        "topic": "Basic Geometric Terms and Notations",
+        "source": "Original (Kaiser Chan)",
+        "problem": "Consider the figure below.<center><img src='assets/images/twoplanes6points.png' width='250'></img></center>True or false: $A$ and $F$ are coplanar.",
+        "answer": "True",
+        "userAns": "T",
+        "solution": ""
+    },
+    {
+        "inputAns": true,
+        "diff": 1,
+        "area": "Geometry",
+        "topic": "Basic Geometric Terms and Notations",
+        "source": "Original (Kaiser Chan)",
+        "problem": "Consider the figure below.<center><img src='assets/images/twoplanes6points.png' width='250'></img></center>True or false: $A$, $E$, and $F$ are both collinear and coplanar.",
+        "answer": "True",
+        "userAns": "T",
+        "solution": ""
+    },
+    {
+        "inputAns": true,
+        "diff": 1,
+        "area": "Geometry",
+        "topic": "Basic Geometric Terms and Notations",
+        "source": "Original (Kaiser Chan)",
+        "problem": "Consider the figure below.<center><img src='assets/images/twoplanes6points.png' width='250'></img></center>True or false: $B$, $C$, $D$, and $E$ are both collinear and coplanar.",
+        "answer": "False",
+        "userAns": "F",
+        "solution": ""
+    },
+    {
+        "inputAns": true,
+        "diff": 1,
+        "area": "Geometry",
+        "topic": "Basic Geometric Terms and Notations",
+        "source": "Original (Kaiser Chan)",
+        "problem": "Consider the figure below.<center><img src='assets/images/twoplanes6points.png' width='250'></img></center>True or false: There is a unique plane that can be formed with the points $B$, $C$, $D$, and $E$.",
+        "answer": "False",
+        "userAns": "F",
+        "solution": ""
+    },
 ];
