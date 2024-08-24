@@ -340,4 +340,15 @@ export const problems = [
         "userAns": "2sqrt(5)",
         "solution": ""
     },
+    {
+        "inputAns": true,
+        "diff": 3,
+        "area": "Geometry",
+        "topic": "Distance and Midpoint Formulas",
+        "source": "Euclid Contest 2021 / 3b, modified",
+        "problem": "In the diagram, $A$ has coordinates $(0,8)$. <center><img src='assets/images/euclid2021_3b.png'></img></center> Also, the midpoint of $\\overline{AB}$ is $M(3,9)$ and the midpoint of $\\overline{BC}$ is $N(7,6)$. What is the slope of $\\overline{AC}$? Express your answer as a common fraction.",
+        "answer": "\\(-\\frac34\\)",
+        "userAns": "-3/4",
+        "solution": ""
+    },
 ];
