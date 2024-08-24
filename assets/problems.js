@@ -302,7 +302,7 @@ export const problems = [
         "area": "Geometry",
         "topic": "Circle Equations",
         "source": "AMC 12B 2017 / 9",
-        "problem": 'A circle has center $(-10, -4)$ and has radius $13$. Another circle has center $(3, 9)$ and radius $\sqrt{65}$. The line passing through the two points of intersection of the two circles has equation $x+y=c$. What is $c$?',
+        "problem": 'A circle has center $(-10, -4)$ and has radius $13$. Another circle has center $(3, 9)$ and radius $\\sqrt{65}$. The line passing through the two points of intersection of the two circles has equation $x+y=c$. What is $c$?',
         "answer": "\\(3\\)",
         "userAns": "3",
         "solution": ""
