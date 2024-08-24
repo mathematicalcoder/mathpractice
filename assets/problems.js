@@ -307,4 +307,37 @@ export const problems = [
         "userAns": "3",
         "solution": ""
     },
+    {
+        "inputAns": true,
+        "diff": 2,
+        "area": "Geometry",
+        "topic": "Distance and Midpoint Formulas",
+        "source": "Euclid Contest 2023 / 2a",
+        "problem": 'If $Q(5,3)$ is the midpoint of the line segment with endpoints $P(1,p)$ and $R(r,5)$, what is the value of $p+r$?',
+        "answer": "\\(10\\)",
+        "userAns": "10",
+        "solution": ""
+    },
+    {
+        "inputAns": true,
+        "diff": 3,
+        "area": "Geometry",
+        "topic": "Circle Equations",
+        "source": "PMO 2020 Qualifying Stage / I.8",
+        "problem": 'Find the radius of the circle tangent to the line $3x+2y+4=0$ at $(-2,1)$ and whose center is on the line $x-8y+36=0$.',
+        "answer": "\\(2\\sqrt{13}\\)",
+        "userAns": "2sqrt(13)",
+        "solution": ""
+    },
+    {
+        "inputAns": true,
+        "diff": 3,
+        "area": "Geometry",
+        "topic": "Circle Equations",
+        "source": "PMO 2019 Qualifying Stage / I.9",
+        "problem": "A circle is tangent to the line $2x-y+1=0$ at the point $(2,5)$ and the center is on the line $x+y-9=0$. Find the radius of the circle.",
+        "answer": "\\(2\\sqrt{5}\\)",
+        "userAns": "2sqrt(5)",
+        "solution": ""
+    },
 ];
