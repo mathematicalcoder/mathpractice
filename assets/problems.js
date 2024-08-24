@@ -30,7 +30,7 @@ export const problems = [
         "problem": "Rewrite the equation \\(x^2-6x+y^2-10x=-18\\) in standard form.",
         "answer": "\\((x-3)^2+(y-5)^2=16\\)",
         "userAns": "(x-3)^2+(y-5)^2=16",
-        "solution": ""
+        "solution": "<i>Solution 1:</i> We first group some terms as follows: $(x^2-6x)+(y^2-10y)=-18$, then we complete the square within each group. In the first group, the linear term has coefficient $-6$, so the constant term is $(-6/2)^2=9$. Similarly, in the second group, the constant term should be $(-10/2)^2=25$. Hence, we add $9+25$ to both sides to get $(x^2-6x+9)+(y^2-10y+25)=-18+9+25$. We can factor each group in the left side and simplify the right side to get our standard form: $\boxed{(x-3)^2+(y-5)^2=16}$.<br><br><i>Solution 2:</i>Note that the general form of the equation is $x^2-6x+y^2-10x+18=0$. Recall that in the general form of a circle equation, $x^2+y^2+Dx+Ey+F=0$, where the center of the circle is $(h,k)$ and the length of the radius is $r$, we have $D=-2h$, $E=-2k$, and $F=h^2+k^2-r^2$. (These can be derived by expanding the standard form.) Thus, we have that $-6=-2h$ and $-10=-2k$, so $h=3$ and $k=5$. This gives us that $18=3^2+5^2-r^2=34-r^2$, so $r^2=34-18=16$. Therefore, the standard form of the equation is $\boxed{(x-3)^2+(y-5)^2=16}$."
     },
     {
         "inputAns": true,
@@ -316,7 +316,7 @@ export const problems = [
         "problem": 'If $Q(5,3)$ is the midpoint of the line segment with endpoints $P(1,p)$ and $R(r,5)$, what is the value of $p+r$?',
         "answer": "\\(10\\)",
         "userAns": "10",
-        "solution": ""
+        "solution": "By the midpoint formula, we have that $$\\left(\\frac{1+r}2,\\frac{p+5}2\\right)=(5,3),$$ so $(1+r)/2=5$ and $(p+5)/2=3$. We can solve these two equations to get that $r=9$ and $p=1$. Therefore, $p+r=1+9=\\boxed{10}$."
     },
     {
         "inputAns": true,
