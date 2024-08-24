@@ -8,6 +8,7 @@ function giveProblem() {
     
     filteredProblems = [];
 
+    document.getElementById("inputAns").value = "";
     document.getElementById("ansStatus").innerHTML = "";
     document.getElementById("ansStatus").className = "";
 
