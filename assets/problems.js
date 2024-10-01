@@ -450,4 +450,60 @@ export const problems = [
         "userAns": "A(1,-8),B(2,-5),C(0,-5),D(-4,-10)",
         "solution": "A reflection in the form: $r_{y=k}$ will have its vertex transformed from $(x,y)$ to $(x,2k-y)$. In this case, we have our image currently having its vertices at $(x,2k-y)$, so we are left to find $(x,y)$. We then have $2k-y_{\\text{Preimage}}=y_{\\text{Image}}$, and we are solving for $y_{\\text{Preimage}}$.$$\\begin{align*}2(-3)-y_A=2&\\rightarrow y_A=-8\\\\2(-3)-y_B=-1&\\rightarrow y_B=-5\\\\2(-3)-y_C=-1&\\rightarrow y_C=-5\\\\2(-3)-y_D=4&\\rightarrow y_D=-10\\end{align*}$$ With this the vertices are as follows: $A(1,-8),B(2,-5),C(0,-5),D(-4,-10)$."
     },
+    {
+        "inputAns": true,
+        "diff": 1,
+        "area": "Geometry",
+        "topic": "Transformational Geometry",
+        "source": "Original (Lawrence Cereñado)",
+        "problem": "A four-sided polygon $A'B'C'D'$ has the following vertices as follows. If the transformation function $t_{5,-3} \\circ r_{y=x}$ was applied to it, what would the vertices of the new polygon $A''B''C''D'' $ be?  (Encode your answer as <code>A''(a1,a2),B''(b1,b2),C''(c1,c2),D''(d1,d2)</code>.)<center><img src='assets/images/transformationsofapolygon.png' width='200px'></center>",
+        "answer": "$A''(7,4),B''(4,5),C''(4,3),D''(9,6)$",
+        "userAns": "A''(7,4),B''(4,5),C''(4,3),D''(9,6)",
+        "solution": "The function is as follows: $t_{5,-3}\\circ r_{y=x}$, or $t_{5,-3}(r_{y=x})$, so we should start with the reflection $r_{y=x}$. In this case of reflection, we would use the formula: $$r_{y=x}:(y,x)$$ This means the x and y-coordinates would swap. <br>Intermediate Image of Vertex $A''$: $(2,1)$<br>Intermediate Image of Vertex $B''$: $(-1,2)$<br>Intermediate Image of Vertex $C''$: $(-1,0)$<br>Intermediate Image of Vertex $D''$: $(4,-4)$<br><br>After this we would apply the translation function: $$\\begin{align*}(2+5,1-(-3))&\\rightarrow A''(7,4)\\\\(-1+5,2-(-3))&\\rightarrow B''(4,5)\\\\(-1+5,0-(-3))&\\rightarrow C''(4,3)\\\\(4+5,2-(-4))&\\rightarrow D''(9,6)\\\\\\end{align*}$$So the vertices of the transformed image is: $A''(7,4),B''(4,5),C''(4,3),D''(9,6)$."
+    },
+    {
+        "inputAns": true,
+        "diff": 2,
+        "area": "Geometry",
+        "topic": "Transformational Geometry",
+        "source": "Original (Yanna Argenio)",
+        "problem": "Points $A$ and $B'''(4,2)$ are plotted on the Cartesian plane. The midpoint of $\\overline{AB'''}$ is $(5,-6)$. Point $A$ was reflected on (i), then translated to (ii), and reflected again on (iii). What would the midpoint of $A'''$ and $B$ be if $B$ followed (iv), (v), and (vi) accordingly?$$(i) \\space r \\scriptstyle (2,-5) \\\\ \\normalsize (ii) \\space T \\scriptstyle (4,8) \\\\\\normalsize (iii) \\space r \\scriptstyle x=0 \\\\\\\\\\normalsize \\\\(iv) \\space T \\scriptstyle (-6, 9)\\\\ \\normalsize (v) \\space r \\space \\scriptsize y=x \\\\\\normalsize (vi) \\space r \\scriptstyle y=-3$$",
+        "answer": "$\\left(-6,\\frac{11}2\\right)$",
+        "userAns": "(-6,-11/2)",
+        "solution": "First we shall get Point A, so subtracting (5,-6) from (4,2), we will get (-1,8) then subtract by (5,-6) again, getting (-6,14) for Point A. We will then apply (i), (ii), and (iii) to Point A to get Point A''', respectively. After solving for A''', we now turn to Point B''' by solving it backwards, starting from (vi) to (v) to (iv). After solving for B, get the midpoint between these two points using the midpoint formula and boom. There!$$A(-6,14)\\\\ A' \\space r \\scriptstyle(2,-5) \\normalsize:(-6,14)=(10,-24)\\\\ A''\\space T \\scriptstyle (4,8) \\normalsize:(10,-24)=(14,-16)\\\\ A''' \\space r \\scriptstyle x=0 \\normalsize :(14,-16) = \\boxed {(-14,-16)}\\\\--\\\\B''' \\space r \\scriptstyle y=-3 \\normalsize :(4,-8)=(4,2)\\\\B'' \\space r \\scriptstyle y=x \\normalsize :(-8,4)=(4,-8)\\\\B' \\space T \\scriptstyle (-6,9) \\normalsize :(-2,-5) = (-8,4)\\\\ \\boxed {B(-2,-5)}\\\\ \\large--midpoint--\\\\ \\normalsize (-14-2)/2, \\space (-16-5)/2\\\\ \\boxed{(-6,-11/2)}$$"
+    },
+    {
+        "inputAns": true,
+        "diff": 1,
+        "area": "Geometry",
+        "topic": "Circle Equations",
+        "source": "Original (Lawrence Cereñado)",
+        "problem": "A triangle $\\triangle MNK$ has three vertices: $M(0,4), \\space N(2,0), \\space K(-2,-2)$. A circle $\\odot A$ has its center at vertex $M$ and one of the points on the circle is vertex $N$. What is the equation of the circle in general form?",
+        "answer": "$x^2+y^2-8y-4=0$",
+        "userAns": "x^2+y^2-8y-4=0",
+        "solution": "The general equation for a circle is stated as: $$x^2+y^2+Dx+Ey+F=0$$, wherein: $$D=-2h,E=-2k,F=h^2+k^2-r^2$$With this, we need to find two things:<ul><li>$r$ - radius of the circle</li><li>$(h,k)$ - center of the circle</li></ul>We know the center of circle $\\odot A$ is at vertex $M(0,4)$, so we can find the values of D and E. $$D=-2(0)=0,E=-2(4)=-8$$To find the radius, we need to use the distance formula. We know that $M(0,4)$ is the center of the circle, and $N(2,0)$ is a point on the circle. <br><br><b>Tip</b>: We don’t need to square root $(x_2-x_1)^2+(y_2-y_1)^2$ anymore, as we only need $r^2$.<br><br>$$r^2=(0-2)^2+(4-0)^2=4+16=20$$Let’s then find F.$$F=(0)^2+(4)^2-20=16-20=-4$ $So the equation of the circle $\\odot A$ is: $$x^2+y^2-8y-4=0$$"
+    },
+    {
+        "inputAns": true,
+        "diff": 1,
+        "area": "Geometry",
+        "topic": "Circle Equations",
+        "source": "Original (Lawrence Cereñado)",
+        "problem": "A triangle $\\triangle MNK$ has three vertices: $M(0,4), \\space N(2,0), \\space K(-2,-2)$. If the center of a circle $\\odot B$ is at vertex $N$ and one of the points on the circle is at vertex $K$, is vertex $M$ a point inside (type <code>A</code>), on (type <code>B</code>), or outside (type <code>C</code>) the circle?",
+        "answer": "Vertex $M$ is <b>on</b> the circle $\\odot B$",
+        "userAns": "B",
+        "solution": "Get the general equation of the circle.<br>$N(2,0)$ → Center<br>$K(-2,-2)$ → One point on the circle<br>$$x^2+y^2+Dx+Ey+F=0$$<br>$$\\begin{align}D&=-2h=-2(2)=-4\\\\E&=-2k=0\\\\r^2&=(x_2-x_1)^2+(y_2-y_1)^2=(2-(-2))^2+(0-(-2)^2)=16+4=20\\\\F&=4+0-20=-16\\end{align*}$$$$x^2+y^2-4x-16=0$$Replace the coordinates of vertex $M$ to the equation.$$\\begin{align*}(0)^2+(4)^2-4(0)-16&=0\\\\0+16-0-16&=0\\\\0&=0\\\\end{align*}$$Since the expression equals $0$, we can conclude that the Vertex $M$ is <b>on</b> the circle $\\odot B$."
+    },
+    {
+        "inputAns": true,
+        "diff": 1,
+        "area": "Geometry",
+        "topic": "Transformational Geometry",
+        "source": "Original (Caitlin Lopingco)",
+        "problem": "A point $A(2,5)$ is reflected across line $y=x$ with image $B$.  $B$ is then transformed along $T_{12,0}$ with image $C$. What is the area of triangle $ABC$? (Do not input the units.)",
+        "answer": "$18~\\text{units}^2$",
+        "userAns": "18",
+        "solution": "$$r_{y=x}(2,5)= B(5,2)$$Since point $B$ is shifted $12~\\text{units}$ to the right, the foot of the triangle is also $12~\\text{units}$ long. Point $A$ is $3~\\text{units}$ below line so the height of the triangle is also $3~\\text{units}$ long. Using the area formula for a triangle, $\\frac{hb}{2}$, we have $$\\frac{12~\\text{units}\\cdot3~\\text{units}}{2}=\\boxed{18~\\text{units}^2}$$"
+    },
+    
 ];
