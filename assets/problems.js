@@ -514,7 +514,28 @@ export const problems = [
         "problem": "The <i>Aquatic Roller Coaster</i> is an infinite roller coaster plotted on the Cartesian plane with the polynomial function $$f(x)=x^3 (x - 3)^2 (x - 2) (2x + 1) (3x - 4)$$ and $y=0$ being the sea level. Without graphing, find the number of intervals this roller coaster goes under the sea.",
         "answer": "$2$",
         "userAns": "2",
-        "solution": "The roller coaster goes under the sea at a certain point if the $y$-coordinate is negative, or $f(x)<0$. Thus, we analyze the behavior of the function when it hits sea level.<br><br>Since $y=0$ (the $x$-axis) is the sea level, we analyze the behavior at the $x$-intercepts. Since all the factors of $f(x)$ are linear, all its roots are $x$-intercepts. Recall that if a real root has odd multiplicity, it passes through the $x$-axis, and if it has even multiplicity, it bounces at the $x$-axis. Let us first enumerate the real roots of $f(x)$:<br><br>$$x=-\\frac12,0~\\text{(mult. 3)},\\frac43,2,3~\\text{(mult. 2)}$$<br><br>All of the roots have odd multiplicity except $3$, which has an even multiplicity, so the function passes through the $x$-axis four times (since there are $4$ roots with odd multiplicity).<br><br>Now, the degree of $f(x)$ is the sum of the exponents of each of its factors, or $3+2+1+1+1=8$, which is even. Now, the leading term is $x^3\\cdot x^2\\cdot x\\cdot 2x\\cdot 3x=6x^8$, which has a positive coefficient, so as $x$ approaches $-\\infty$ or $+\\infty$, $f(x)$ approaches $+\\infty$. Since $f(x)$ passes the $x$-axis four times, it goes below the $x$-axis twice, so there are $\\boxed2$ intervals where the roller coaster goes below sea level."
+        "solution": "The roller coaster goes under the sea at a certain point if the $y$-coordinate is negative, or $f(x)<0$. Thus, we analyze the behavior of the function when it hits sea level.<br><br>Since $y=0$ (the $x$-axis) is the sea level, we analyze the behavior at the $x$-intercepts. Since all the factors of $f(x)$ are linear, all its roots are $x$-intercepts. Recall that if a real root has odd multiplicity, it passes through the $x$-axis, and if it has even multiplicity, it bounces at the $x$-axis. Let us first enumerate the real roots of $f(x)$:<br><br>$$x=-\\frac12,0~\\text{(mult. 3)},\\frac43,2,3~\\text{(mult. 2)}$$All of the roots have odd multiplicity except $3$, which has an even multiplicity, so the function passes through the $x$-axis four times (since there are $4$ roots with odd multiplicity).<br><br>Now, the degree of $f(x)$ is the sum of the exponents of each of its factors, or $3+2+1+1+1=8$, which is even. Now, the leading term is $x^3\\cdot x^2\\cdot x\\cdot 2x\\cdot 3x=6x^8$, which has a positive coefficient, so as $x$ approaches $-\\infty$ or $+\\infty$, $f(x)$ approaches $+\\infty$. Since $f(x)$ passes the $x$-axis four times, it goes below the $x$-axis twice, so there are $\\boxed2$ intervals where the roller coaster goes below sea level."
     },
-    
+    {
+        "inputAns": true,
+        "diff": 1,
+        "area": "Algebra",
+        "topic": "Rational Function Basics",
+        "source": "Original (Kaiser Chan)",
+        "problem": "Find the domain of $f(x)=\\frac{x^2+7x+12}{x+3}$ in interval notation.",
+        "answer": "$(-\\infty,-3)\\cup(-3,+\\infty)$",
+        "userAns": "(-inf,-3)U(-3,+inf)",
+        "solution": "The only way that $f(x)$ is undefined is if the denominator is $0$. Thus, for $f(x)$ to have a value, $x+3\\ne0$, so $x\\ne-3$, so the domain is $\\mathbb R\\backslash\\{3\\}=\\boxed{(-\\infty,-3)\\cup(-3,+\\infty)}$."
+    },
+    {
+        "inputAns": true,
+        "diff": 1,
+        "area": "Algebra",
+        "topic": "Rational Function Basics",
+        "source": "Original (Kaiser Chan)",
+        "problem": "Find the vertical asymptote of $f(x)=\\frac{x^2+7x+12}{x+3}$.",
+        "answer": "$x=-3$",
+        "userAns": "x=-3",
+        "solution": "The only way that $f(x)$ is undefined is if the denominator is $0$. Thus, for $f(x)$ to have a value, $x+3\\ne0$, so $x\\ne-3$, so the vertical asymptote is the line $\\boxed{x=3}$."
+    },
 ];
