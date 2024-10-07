@@ -536,6 +536,6 @@ export const problems = [
         "problem": "Find the vertical asymptote of $f(x)=\\frac{x^2+7x+12}{x+3}$.",
         "answer": "$x=-3$",
         "userAns": "x=-3",
-        "solution": "The only way that $f(x)$ is undefined is if the denominator is $0$. Thus, for $f(x)$ to have a value, $x+3\\ne0$, so $x\\ne-3$, so the vertical asymptote is the line $\\boxed{x=3}$."
+        "solution": "The only way that $f(x)$ is undefined is if the denominator is $0$. Thus, for $f(x)$ to have a value, $x+3\\ne0$, so the restriction is $x\\ne-3$, therefore the vertical asymptote is the line $\\boxed{x=3}$."
     },
 ];
