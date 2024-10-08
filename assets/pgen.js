@@ -50,7 +50,7 @@ function giveProblem() {
     document.getElementById("topic").innerHTML = filteredProblems[index]["topic"];
     document.getElementById("diff").innerHTML = filteredProblems[index]["diff"];
 
-    if (filteredProblems[index]["title"] == "undefined") {
+    if (filteredProblems[index]["title"] == undefined) {
         document.getElementById("title").innerHTML = "";
     } else {
         document.getElementById("title").innerHTML = filteredProblems[index]["title"];
