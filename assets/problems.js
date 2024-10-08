@@ -538,4 +538,26 @@ export const problems = [
         "userAns": "x=-3",
         "solution": "The only way that $f(x)$ is undefined is if the denominator is $0$. Thus, for $f(x)$ to have a value, $x+3\\ne0$, so the restriction is $x\\ne-3$, therefore the vertical asymptote is the line $\\boxed{x=3}$."
     },
+    {
+        "inputAns": true,
+        "diff": 1,
+        "area": "Algebra",
+        "topic": "Polynomial Functions",
+        "source": "Original (Caleb Esteban)",
+        "problem": "Find the number of polynomial functions $f(x)$ that satisfy the following conditions:<ul><li>$f(x) = x$ for $x \\leqslant 3$</li><li>$f(x) = -x$ for $x > 3$</li><li>$f(3)$ is not defined.</li></ul>",
+        "answer": "0",
+        "userAns": "0",
+        "solution": "If we attempt to graph $f(x)$, we find that there will always be a gap in the graph at $(3, f(3))$ (since $f(3)$ is undefined). This is impossible because the domain of a polynomial function is always $\\mathbb R$, so there are no gaps. Therefore, there are $\\boxed0$ polynomial functions that satisfy the conditions."
+    },
+    {
+        "inputAns": true,
+        "diff": 1,
+        "area": "Geometry",
+        "topic": "Transformational Geometry",
+        "source": "Original (Kaiser Chan)",
+        "problem": "A circle with center $(3,4)$ is dilated with respect to the origin with scale factor $k=-3$. If the area of the image is $225\\pi$, what is the radius of the preimage?",
+        "answer": "5",
+        "userAns": "5",
+        "solution": "Note that the image is also a circle, so its radius is $\\sqrt{225/\\pi}=15$ (since if $r$ is its radius, then $\\pi r^2=225$). Now, since the preimage was dilated with scale factor $k=-3$, the radius was multiplied by $3$ (the negative sign in the scale factor tells us to rotate the preimage by $180^\\circ$). Therefore, the radius of the preimage is $15/3=\\boxed5$."
+    },
 ];
