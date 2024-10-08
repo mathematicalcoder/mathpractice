@@ -46,10 +46,15 @@ function giveProblem() {
     document.getElementById("ansSoln").style.display = "none";
 
     document.getElementById("problem").innerHTML = filteredProblems[index]["problem"];
-    document.getElementById("title").innerHTML = filteredProblems[index]["title"];
     document.getElementById("source").innerHTML = filteredProblems[index]["source"];
     document.getElementById("topic").innerHTML = filteredProblems[index]["topic"];
     document.getElementById("diff").innerHTML = filteredProblems[index]["diff"];
+
+    if (filteredProblems[index]["title"] == "undefined") {
+        document.getElementById("title").innerHTML = "";
+    } else {
+        document.getElementById("title").innerHTML = filteredProblems[index]["title"];
+    }
 
     if (filteredProblems[index]["answer"] == "") {
         document.getElementById("answer").innerHTML = "The problem curator has not yet given an answer for this problem.";
