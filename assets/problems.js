@@ -560,4 +560,26 @@ export const problems = [
         "userAns": "5",
         "solution": "Note that the image is also a circle, so its radius is $\\sqrt{225/\\pi}=15$ (since if $r$ is its radius, then $\\pi r^2=225$). Now, since the preimage was dilated with scale factor $k=-3$, the radius was multiplied by $3$ (the negative sign in the scale factor tells us to rotate the preimage by $180^\\circ$). Therefore, the radius of the preimage is $15/3=\\boxed5$."
     },
+    {
+        "inputAns": true,
+        "diff": 2,
+        "area": "Algebra",
+        "topic": "Rational Function Basics",
+        "source": "Original (Caleb Esteban)",
+        "problem": "Among all the rational functions that exists, Zonk loves trigonometric functions the most. In particular, he loves the function $\\tan(x)$, which is one of the only three standard trigonometric functions to have asymptotes.<br><br>He decides to create another rational function inspired by the tangent function, $tidalwave(x)$, whose graph has the following properties:<ul><li>Going in both directions, the graph approaches the line $x = 14$, but never actually touches the line. </li><ul> $34$ is its one and only zero. </li></ul>Give the function $f$ that matches the characteristics of $tidalwave(x)$'s graph such that it has the least number of factors possible in both the numerator and denominator and the leading coefficient in both is 1.",
+        "answer": "$f(x)=\\frac{x-14}{x-34}$",
+        "userAns": "f(x)=(x-14)/(x-34)",
+        "solution": ""
+    },
+    {
+        "inputAns": true,
+        "diff": 2,
+        "area": "Geometry",
+        "topic": "Transformational Geometry",
+        "source": "Original (Kaiser Chan)",
+        "problem": "When we rotate a circle, is it always, sometimes, or never the same as translation?",
+        "answer": "Always",
+        "userAns": "A",
+        "solution": ""
+    },
 ];
