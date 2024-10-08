@@ -22,6 +22,7 @@ function giveProblem() {
 
     if (filteredProblems.length == 0) {
         document.getElementById("problem").innerHTML = "There are no problems available.";
+        document.getElementById("title").innerHTML = "";
         document.getElementById("source").innerHTML = "";
         document.getElementById("topic").innerHTML = "";
         document.getElementById("diff").innerHTML = "";
@@ -45,6 +46,7 @@ function giveProblem() {
     document.getElementById("ansSoln").style.display = "none";
 
     document.getElementById("problem").innerHTML = filteredProblems[index]["problem"];
+    document.getElementById("title").innerHTML = filteredProblems[index]["title"];
     document.getElementById("source").innerHTML = filteredProblems[index]["source"];
     document.getElementById("topic").innerHTML = filteredProblems[index]["topic"];
     document.getElementById("diff").innerHTML = filteredProblems[index]["diff"];
