@@ -558,7 +558,7 @@ export const problems = [
         "problem": "A circle with center $(3,4)$ is dilated with respect to the origin with scale factor $k=-3$. If the area of the image is $225\\pi$, what is the radius of the preimage?",
         "answer": "5",
         "userAns": "5",
-        "solution": "Note that the image is also a circle, so its radius is $\\sqrt{225/\\pi}=15$ (since if $r$ is its radius, then $\\pi r^2=225$). Now, since the preimage was dilated with scale factor $k=-3$, the radius was multiplied by $3$ (the negative sign in the scale factor tells us to rotate the preimage by $180^\\circ$). Therefore, the radius of the preimage is $15/3=\\boxed5$."
+        "solution": "Note that the image is also a circle, so its radius is $\\sqrt{225\\pi/\\pi}=15$ (since if $r$ is its radius, then $\\pi r^2=225$). Now, since the preimage was dilated with scale factor $k=-3$, the radius was multiplied by $3$ (the negative sign in the scale factor tells us to rotate the preimage by $180^\\circ$). Therefore, the radius of the preimage is $15/3=\\boxed5$."
     },
     {
         "inputAns": true,
@@ -567,9 +567,9 @@ export const problems = [
         "topic": "Rational Function Basics",
         "source": "Original (Caleb Esteban)",
         "problem": "Among all the rational functions that exists, Zonk loves trigonometric functions the most. In particular, he loves the function $\\tan(x)$, which is one of the only three standard trigonometric functions to have asymptotes.<br><br>He decides to create another rational function inspired by the tangent function, $tidalwave(x)$, whose graph has the following properties:<ul><li>Going in both directions, the graph approaches the line $x = 14$, but never actually touches the line. </li><ul> $34$ is its one and only zero. </li></ul>Give the function $f$ that matches the characteristics of $tidalwave(x)$'s graph such that it has the least number of factors possible in both the numerator and denominator and the leading coefficient in both is 1.",
-        "answer": "$f(x)=\\frac{x-14}{x-34}$",
-        "userAns": "f(x)=(x-14)/(x-34)",
-        "solution": ""
+        "answer": "$f(x)=\\frac{x-34}{x-14}$",
+        "userAns": "f(x)=(x-34)/(x-14)",
+        "solution": "$x=14$ is a vertical asymptote of $tidalwave(x)$, thus $(x-14)$ must be a factor of the denominator. Since $34$ is the only zero, the numerator must have only one factor other than itself: $(x-34)$. Thus, the minimal example of a function that can be $tidalwave(x)$ is $f(x) = \\frac{x-34}{x-14}$."
     },
     {
         "inputAns": true,
